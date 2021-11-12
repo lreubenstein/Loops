@@ -1,3 +1,4 @@
+package com.company;
 import java.util.Scanner;
 
 public class Exercises {
@@ -17,7 +18,7 @@ public class Exercises {
 		int x = 1;
 		while (x <= n){
 			sum += x;
-			x++;
+			x+=2;
 		}
 		return sum;
 	}
@@ -143,24 +144,14 @@ public class Exercises {
 	}
 	public static boolean isPerfectSquare2(int n)
 	{
-//		int p = 1, sum = 0;
-//		while(sum<n)
-//		{
-//			sum +=p;
-//			p +=2;
-//		}
-//		return (sum == n);
-		int count = 1;
-
-		while (true)
+		int p = 1, sum = 0;
+		while(sum<n)
 		{
-			n -= count;
-			count += 2;
-
-			if (n == 0) return true;
-			if (n < 0) return false;
-
+			sum +=p;
+			p +=2;
 		}
+		return (sum == n);
+
 
 	}
 	public static void main(String[] args) {
@@ -184,8 +175,7 @@ public class Exercises {
 		
 		System.out.println("years 120 mil " +howManyYears(111200000, 120000000));
 		System.out.println("years 150 mil " +howManyYears(111200000, 150000000));
-		System.out.println("years 150 mil " +howManyYears(120000000, 200000000));
-//		//		sillyNumbers();
+		//		sillyNumbers();
 //		sillyNumbers2();
 //		dollarsAndStars();
 

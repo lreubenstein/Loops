@@ -1,4 +1,4 @@
-
+package com.company;
 public class TriClass {
 
 	public TriClass() {
