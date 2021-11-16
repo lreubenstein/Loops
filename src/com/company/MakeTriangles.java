@@ -72,8 +72,8 @@ public static void triangle5(int n){
     public static void main(String[] args){
         triangle1(3);
         triangle2(7);
-//        triangle3(6);
-//        triangle4(5);
+        triangle3(6);
+        triangle4(5);
         triangle5(5);
     }
 }

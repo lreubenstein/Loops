@@ -75,7 +75,7 @@ public class WhileLoops {
         printSum(8);
         printSum(12);
         printSum(4);
-        
+
         int n = 63;
         System.out.println(n + " is a perfect square - " + isPerfectSquare2(n));
         n = 64;
